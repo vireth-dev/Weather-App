@@ -1,3 +1,15 @@
+import SwiftUI
+
+@main
+struct WeatherAppApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+                .preferredColorScheme(nil) // เปลี่ยนเป็น .light / .dark หรือ nil (Auto)
+        }
+    }
+}
+
 import Foundation
 
 // ========== ENUM ==========
